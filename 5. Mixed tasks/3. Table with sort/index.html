@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                    <th>Company</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+                <tr>
+                    <td>Mark</td>
+                    <td>Zuckerberg</td>
+                    <td>34</td>
+                    <td>Facebook</td>
+                </tr>
+                <tr>
+                    <td>Larry</td>
+                    <td>Page</td>
+                    <td>45</td>
+                    <td>Google</td>
+                </tr>
+                <tr>
+                    <td>Timothy</td>
+                    <td>Cook</td>
+                    <td>57</td>
+                    <td>Apple</td>
+                </tr>
+                <tr>
+                    <td>Bill</td>
+                    <td>Gates</td>
+                    <td>62</td>
+                    <td>Microsoft</td>
+                </tr>
+                <tr>
+                    <td>Anna</td>
+                    <td>Azbukovna</td>
+                    <td>78</td>
+                    <td>Tesla</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <template id="template">
+            <tr>
+                <td>{{firstname}}</td>
+                <td>{{lastname}}</td>
+                <td>{{age}}</td>
+                <td>{{company}}</td>
+            </tr>
+        </template>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

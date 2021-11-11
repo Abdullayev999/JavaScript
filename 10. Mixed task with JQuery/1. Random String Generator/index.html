@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random String Generator</h1>
+        <form id="myForm">
+            <p>String should be <input id="count" min="1" max="1000" type="number"> characters long</p>
+            <p>Which characters are allowed to occur in the strings?</p>
+            <label><input id="isNumber" type="checkbox">Numeric digits (0-9) </label>
+            <label><input id="isUpper" type="checkbox">Uppercase letters (A-Z)</label>
+            <label><input id="isLower" type="checkbox">Lowercase letters (a-z)</label>
+            <button>Generate</button>
+        </form>
+        <hr>
+        <div class="resultGen">
+            <label>Result: </label>
+            <p id="result"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+.container {
+  font-size: 20px;
+  padding: 20px;
+  margin: auto;
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FBF2E9;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container select {
+  margin-right: 50px;
+}
+
+.container hr {
+  width: 900px;
+}
+
+.container label {
+  margin-left: 25px;
+}
+
+.container input {
+  margin-right: 20px;
+}
+
+.container button {
+  width: 150px;
+  height: 25px;
+}
+
+.container .searchForm {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+}
+
+.container .places {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: (1fr)[13];
+      grid-template: 1fr 1fr/repeat(13, 1fr);
+}
+
+.container .places label {
+  border: 1px solid black;
+}
+
+.container .book {
+  margin-top: 20px;
+  float: right;
+}
+
+.container th {
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,932 @@
+[ 
+  {
+    "country": "AF",
+    "name": "Yangī Qal‘ah",
+    "lat": "37.46572",
+    "lng": "69.61131"
+  },
+  {
+    "country": "AF",
+    "name": "Yaḩyá Khēl",
+    "lat": "32.93742",
+    "lng": "68.64622"
+  },
+  {
+    "country": "AF",
+    "name": "Wāshēr",
+    "lat": "32.25122",
+    "lng": "63.85553"
+  },
+  {
+    "country": "AF",
+    "name": "Tōrmay",
+    "lat": "33.68847",
+    "lng": "68.40205"
+  },
+  {
+    "country": "AF",
+    "name": "Tūlak",
+    "lat": "33.97509",
+    "lng": "63.72868"
+  },
+  {
+    "country": "AF",
+    "name": "Tītān",
+    "lat": "33.69032",
+    "lng": "63.86361"
+  },
+  {
+    "country": "AF",
+    "name": "Tīr Pul",
+    "lat": "34.59431",
+    "lng": "61.26895"
+  },
+  {
+    "country": "AF",
+    "name": "Taywarah",
+    "lat": "33.52118",
+    "lng": "64.42116"
+  },
+  {
+    "country": "AF",
+    "name": "Bāzār-e Tashkān",
+    "lat": "36.88168",
+    "lng": "70.27674"
+  },
+  {
+    "country": "AF",
+    "name": "Tarinkot",
+    "lat": "32.62998",
+    "lng": "65.87806"
+  },
+  {
+    "country": "AF",
+    "name": "Taloqan",
+    "lat": "36.73605",
+    "lng": "69.53451"
+  },
+  {
+    "country": "AF",
+    "name": "Tagāw-Bāy",
+    "lat": "35.69941",
+    "lng": "66.06164"
+  },
+  {
+    "country": "AF",
+    "name": "Tagāb",
+    "lat": "34.85501",
+    "lng": "69.64917"
+  },
+  {
+    "country": "AF",
+    "name": "Markaz-e Ḩukūmat-e Sulţān-e Bakwāh",
+    "lat": "32.24139",
+    "lng": "62.94936"
+  },
+  {
+    "country": "AF",
+    "name": "Spīn Bōldak",
+    "lat": "31.00575",
+    "lng": "66.40001"
+  },
+  {
+    "country": "AF",
+    "name": "Spērah",
+    "lat": "33.20204",
+    "lng": "69.5152"
+  },
+  {
+    "country": "AF",
+    "name": "Sōzmah Qal‘ah",
+    "lat": "36.09916",
+    "lng": "66.20823"
+  },
+  {
+    "country": "AF",
+    "name": "Siyāhgird",
+    "lat": "35.00553",
+    "lng": "68.85578"
+  },
+  {
+    "country": "AF",
+    "name": "Sheywah",
+    "lat": "34.57169",
+    "lng": "70.58859"
+  },
+  {
+    "country": "AF",
+    "name": "Shīnḏanḏ",
+    "lat": "33.30294",
+    "lng": "62.1474"
+  },
+  {
+    "country": "AF",
+    "name": "Shaykh Amīr Kêlay",
+    "lat": "33.28744",
+    "lng": "69.91283"
+  },
+  {
+    "country": "AF",
+    "name": "Qāshqāl",
+    "lat": "35.03975",
+    "lng": "69.00685"
+  },
+  {
+    "country": "AF",
+    "name": "Shibirghān",
+    "lat": "36.66757",
+    "lng": "65.7529"
+  },
+  {
+    "country": "AF",
+    "name": "Shwāk",
+    "lat": "33.42386",
+    "lng": "69.37684"
+  },
+  {
+    "country": "AF",
+    "name": "Shahr-e Şafā",
+    "lat": "31.80347",
+    "lng": "66.32376"
+  },
+  {
+    "country": "AF",
+    "name": "Shahrān",
+    "lat": "36.97984",
+    "lng": "70.73928"
+  },
+  {
+    "country": "AF",
+    "name": "Shahrak",
+    "lat": "34.10737",
+    "lng": "64.3052"
+  },
+  {
+    "country": "AF",
+    "name": "‘Alāqahdārī Shāh Jōy",
+    "lat": "32.52154",
+    "lng": "67.41315"
+  },
+  {
+    "country": "AF",
+    "name": "Wulêswālī Sayyid Karam",
+    "lat": "33.69056",
+    "lng": "69.36881"
+  },
+  {
+    "country": "AF",
+    "name": "Markaz-e Sayyidābād",
+    "lat": "34.00037",
+    "lng": "68.71346"
+  },
+  {
+    "country": "AF",
+    "name": "Şayād",
+    "lat": "36.13529",
+    "lng": "65.8297"
+  },
+  {
+    "country": "AF",
+    "name": "Sidqābād",
+    "lat": "35.02298",
+    "lng": "69.35112"
+  },
+  {
+    "country": "AF",
+    "name": "Sāyagaz",
+    "lat": "32.56521",
+    "lng": "67.03324"
+  },
+  {
+    "country": "AF",
+    "name": "Sar-e Tayghān",
+    "lat": "33.50998",
+    "lng": "65.67632"
+  },
+  {
+    "country": "AF",
+    "name": "Sarōbī",
+    "lat": "34.58962",
+    "lng": "69.76005"
+  },
+  {
+    "country": "AF",
+    "name": "Sar Kāṉī",
+    "lat": "34.79023",
+    "lng": "71.10962"
+  },
+  {
+    "country": "AF",
+    "name": "Sarfirāz Kalā",
+    "lat": "32.98333",
+    "lng": "67.96517"
+  },
+  {
+    "country": "AF",
+    "name": "Sar-e Pul",
+    "lat": "36.21544",
+    "lng": "65.93249"
+  },
+  {
+    "country": "AF",
+    "name": "Sar Chakān",
+    "lat": "35.70177",
+    "lng": "65.23055"
+  },
+  {
+    "country": "AF",
+    "name": "Sangīn",
+    "lat": "32.07275",
+    "lng": "64.8359"
+  },
+  {
+    "country": "AF",
+    "name": "Sang-e Māshah",
+    "lat": "33.1396",
+    "lng": "67.44046"
+  },
+  {
+    "country": "AF",
+    "name": "Sang-e Chārak",
+    "lat": "35.84972",
+    "lng": "66.43694"
+  },
+  {
+    "country": "AF",
+    "name": "Sang Atesh",
+    "lat": "35.248",
+    "lng": "63.0044"
+  },
+  {
+    "country": "AF",
+    "name": "Sangar Sarāy",
+    "lat": "34.40744",
+    "lng": "70.63937"
+  },
+  {
+    "country": "AF",
+    "name": "Aībak",
+    "lat": "36.26468",
+    "lng": "68.01551"
+  },
+  {
+    "country": "AF",
+    "name": "Rū-ye Sang",
+    "lat": "35.31999",
+    "lng": "67.63387"
+  },
+  {
+    "country": "AF",
+    "name": "Rūdbār",
+    "lat": "30.15",
+    "lng": "62.6"
+  },
+  {
+    "country": "AF",
+    "name": "Rustāq",
+    "lat": "37.12604",
+    "lng": "69.83045"
+  },
+  {
+    "country": "AF",
+    "name": "Rabāţ-e Sangī-ye Pā’īn",
+    "lat": "34.79951",
+    "lng": "62.13917"
+  },
+  {
+    "country": "AF",
+    "name": "Rāmak",
+    "lat": "33.52234",
+    "lng": "68.6264"
+  },
+  {
+    "country": "AF",
+    "name": "Qurghān",
+    "lat": "36.91939",
+    "lng": "65.0649"
+  },
+  {
+    "country": "AF",
+    "name": "Quchanghī",
+    "lat": "34.06183",
+    "lng": "66.27801"
+  },
+  {
+    "country": "AF",
+    "name": "Sangalak-i-Kaisar",
+    "lat": "35.68747",
+    "lng": "64.29318"
+  },
+  {
+    "country": "AF",
+    "name": "Qarqīn",
+    "lat": "37.41853",
+    "lng": "66.04358"
+  },
+  {
+    "country": "AF",
+    "name": "Qarghah’ī",
+    "lat": "34.55402",
+    "lng": "70.24292"
+  },
+  {
+    "country": "AF",
+    "name": "Qarchī Gak",
+    "lat": "37.03999",
+    "lng": "66.78891"
+  },
+  {
+    "country": "AF",
+    "name": "Qarāwul",
+    "lat": "37.21959",
+    "lng": "68.7802"
+  },
+  {
+    "country": "AF",
+    "name": "Qarah Bāgh",
+    "lat": "34.94023",
+    "lng": "61.77589"
+  },
+  {
+    "country": "AF",
+    "name": "Qarah Bāgh",
+    "lat": "33.19801",
+    "lng": "68.10798"
+  },
+  {
+    "country": "AF",
+    "name": "Qala i Naw",
+    "lat": "34.98735",
+    "lng": "63.12891"
+  },
+  {
+    "country": "AF",
+    "name": "Qal‘ah-ye Kūf",
+    "lat": "38.04119",
+    "lng": "70.47298"
+  },
+  {
+    "country": "AF",
+    "name": "Qal‘ah-ye Kuhnah",
+    "lat": "32.61591",
+    "lng": "63.66681"
+  },
+  {
+    "country": "AF",
+    "name": "Qal‘ah-ye Shahr",
+    "lat": "35.54729",
+    "lng": "65.5676"
+  },
+  {
+    "country": "AF",
+    "name": "Qalāt",
+    "lat": "32.10575",
+    "lng": "66.90833"
+  },
+  {
+    "country": "AF",
+    "name": "Qal‘ah-ye Shāhī",
+    "lat": "34.64921",
+    "lng": "70.5914"
+  },
+  {
+    "country": "AF",
+    "name": "Qādis",
+    "lat": "34.8085",
+    "lng": "63.43003"
+  },
+  {
+    "country": "AF",
+    "name": "Pārūn",
+    "lat": "35.42064",
+    "lng": "70.92261"
+  },
+  {
+    "country": "AF",
+    "name": "Pul-e Khumrī",
+    "lat": "35.94458",
+    "lng": "68.71512"
+  },
+  {
+    "country": "AF",
+    "name": "Pul-e ‘Alam",
+    "lat": "33.99529",
+    "lng": "69.02274"
+  },
+  {
+    "country": "AF",
+    "name": "Pasnay",
+    "lat": "35.76664",
+    "lng": "65.76486"
+  },
+  {
+    "country": "AF",
+    "name": "Pāshmūl",
+    "lat": "31.5572",
+    "lng": "65.4343"
+  },
+  {
+    "country": "AF",
+    "name": "Pasāband",
+    "lat": "33.68956",
+    "lng": "64.8531"
+  },
+  {
+    "country": "AF",
+    "name": "Panjāb",
+    "lat": "34.38795",
+    "lng": "67.02327"
+  },
+  {
+    "country": "AF",
+    "name": "Paghmān",
+    "lat": "34.58787",
+    "lng": "68.95091"
+  },
+  {
+    "country": "AF",
+    "name": "Ōmnah",
+    "lat": "32.90029",
+    "lng": "68.79627"
+  },
+  {
+    "country": "AF",
+    "name": "Qaryeh-ye Owbeh",
+    "lat": "34.36972",
+    "lng": "63.17639"
+  },
+  {
+    "country": "AF",
+    "name": "Uruzgān",
+    "lat": "32.92775",
+    "lng": "66.63253"
+  },
+  {
+    "country": "AF",
+    "name": "Urgun",
+    "lat": "32.9515",
+    "lng": "69.1828"
+  },
+  {
+    "country": "AF",
+    "name": "Nūsay",
+    "lat": "38.4435",
+    "lng": "70.80413"
+  },
+  {
+    "country": "AF",
+    "name": "Nūrgal",
+    "lat": "34.61341",
+    "lng": "70.76498"
+  },
+  {
+    "country": "AF",
+    "name": "Now Zād",
+    "lat": "32.40315",
+    "lng": "64.46959"
+  },
+  {
+    "country": "AF",
+    "name": "Nīlī",
+    "lat": "33.72178",
+    "lng": "66.13023"
+  },
+  {
+    "country": "AF",
+    "name": "Nayak",
+    "lat": "34.73414",
+    "lng": "66.95292"
+  },
+  {
+    "country": "AF",
+    "name": "Nāyak",
+    "lat": "32.5723",
+    "lng": "66.77403"
+  },
+  {
+    "country": "AF",
+    "name": "Now Dahānak",
+    "lat": "35.62398",
+    "lng": "70.00511"
+  },
+  {
+    "country": "AF",
+    "name": "Ōkak",
+    "lat": "33.89793",
+    "lng": "67.95652"
+  },
+  {
+    "country": "AF",
+    "name": "Nāṟay",
+    "lat": "35.21995",
+    "lng": "71.52284"
+  },
+  {
+    "country": "AF",
+    "name": "Narang",
+    "lat": "34.76009",
+    "lng": "71.04738"
+  },
+  {
+    "country": "AF",
+    "name": "Nīkêh",
+    "lat": "33.18934",
+    "lng": "69.27179"
+  },
+  {
+    "country": "AF",
+    "name": "Nahrīn",
+    "lat": "36.0649",
+    "lng": "69.13343"
+  },
+  {
+    "country": "AF",
+    "name": "Ḩukūmat-e Nād ‘Alī",
+    "lat": "31.64286",
+    "lng": "64.23982"
+  },
+  {
+    "country": "AF",
+    "name": "Mūsá Qal‘ah",
+    "lat": "32.44565",
+    "lng": "64.74486"
+  },
+  {
+    "country": "AF",
+    "name": "Bala Murghab",
+    "lat": "35.58408",
+    "lng": "63.32886"
+  },
+  {
+    "country": "AF",
+    "name": "Muqêr",
+    "lat": "32.82009",
+    "lng": "67.76934"
+  },
+  {
+    "country": "AF",
+    "name": "Muḩammad Āghah Wuluswālī",
+    "lat": "34.21422",
+    "lng": "69.10026"
+  },
+  {
+    "country": "AF",
+    "name": "Mīzān ‘Alāqahdārī",
+    "lat": "32.17635",
+    "lng": "66.51271"
+  },
+  {
+    "country": "AF",
+    "name": "Mīr Bachah Kōṯ",
+    "lat": "34.74999",
+    "lng": "69.11899"
+  },
+  {
+    "country": "AF",
+    "name": "Mīrān",
+    "lat": "34.22037",
+    "lng": "68.31259"
+  },
+  {
+    "country": "AF",
+    "name": "Mīrābād",
+    "lat": "30.43624",
+    "lng": "61.8383"
+  },
+  {
+    "country": "AF",
+    "name": "Maymana",
+    "lat": "35.92139",
+    "lng": "64.78361"
+  },
+  {
+    "country": "AF",
+    "name": "Maīdān Khūlah",
+    "lat": "33.64916",
+    "lng": "69.7812"
+  },
+  {
+    "country": "AF",
+    "name": "Mingajik",
+    "lat": "37.0279",
+    "lng": "66.12817"
+  },
+  {
+    "country": "AF",
+    "name": "Mehtar Lām",
+    "lat": "34.67139",
+    "lng": "70.20944"
+  },
+  {
+    "country": "AF",
+    "name": "Mazār-e Sharīf",
+    "lat": "36.70904",
+    "lng": "67.11087"
+  },
+  {
+    "country": "AF",
+    "name": "Māymay",
+    "lat": "38.40856",
+    "lng": "71.03839"
+  },
+  {
+    "country": "AF",
+    "name": "Mutā Khān",
+    "lat": "33.24001",
+    "lng": "68.8663"
+  },
+  {
+    "country": "AF",
+    "name": "Mashhad",
+    "lat": "36.81665",
+    "lng": "70.10211"
+  },
+  {
+    "country": "AF",
+    "name": "Mardīān",
+    "lat": "36.99252",
+    "lng": "66.29654"
+  },
+  {
+    "country": "AF",
+    "name": "Mandōl",
+    "lat": "35.28403",
+    "lng": "70.17017"
+  },
+  {
+    "country": "AF",
+    "name": "Māmā Khēl",
+    "lat": "34.24494",
+    "lng": "69.9968"
+  },
+  {
+    "country": "AF",
+    "name": "Lashkar Gāh",
+    "lat": "31.59382",
+    "lng": "64.37161"
+  },
+  {
+    "country": "AF",
+    "name": "Lāsh-e Juwayn",
+    "lat": "31.71382",
+    "lng": "61.62272"
+  },
+  {
+    "country": "AF",
+    "name": "Larkird",
+    "lat": "35.48936",
+    "lng": "66.66409"
+  },
+  {
+    "country": "AF",
+    "name": "La‘l",
+    "lat": "34.50141",
+    "lng": "66.27997"
+  },
+  {
+    "country": "AF",
+    "name": "Kushk",
+    "lat": "33.29565",
+    "lng": "61.95221"
+  },
+  {
+    "country": "AF",
+    "name": "Kōṯowāl",
+    "lat": "34.10319",
+    "lng": "70.46073"
+  },
+  {
+    "country": "AF",
+    "name": "Kushk-e Kuhnah",
+    "lat": "34.8711",
+    "lng": "62.54762"
+  },
+  {
+    "country": "AF",
+    "name": "Kuran wa Munjan",
+    "lat": "36.02866",
+    "lng": "70.77258"
+  },
+  {
+    "country": "AF",
+    "name": "Kunduz",
+    "lat": "36.72895",
+    "lng": "68.857"
+  },
+  {
+    "country": "AF",
+    "name": "Khōshī",
+    "lat": "33.99916",
+    "lng": "69.21582"
+  },
+  {
+    "country": "AF",
+    "name": "Khōshāmand",
+    "lat": "32.68567",
+    "lng": "68.23801"
+  },
+  {
+    "country": "AF",
+    "name": "Khwājah Ghār",
+    "lat": "37.06588",
+    "lng": "69.42126"
+  },
+  {
+    "country": "AF",
+    "name": "Khwājah Dū Kōh",
+    "lat": "36.82881",
+    "lng": "65.62432"
+  },
+  {
+    "country": "AF",
+    "name": "Deh Khwāhān",
+    "lat": "37.88965",
+    "lng": "70.21875"
+  },
+  {
+    "country": "AF",
+    "name": "Khulbisāt",
+    "lat": "33.4948",
+    "lng": "70.00605"
+  },
+  {
+    "country": "AF",
+    "name": "Khūgyāṉī",
+    "lat": "31.56267",
+    "lng": "66.5814"
+  },
+  {
+    "country": "AF",
+    "name": "Khōst",
+    "lat": "33.33951",
+    "lng": "69.92041"
+  },
+  {
+    "country": "AF",
+    "name": "Khulm",
+    "lat": "36.69736",
+    "lng": "67.69826"
+  },
+  {
+    "country": "AF",
+    "name": "Khudāydād Khēl",
+    "lat": "35.17835",
+    "lng": "67.68758"
+  },
+  {
+    "country": "AF",
+    "name": "Khinjān",
+    "lat": "35.58908",
+    "lng": "68.90093"
+  },
+  {
+    "country": "AF",
+    "name": "Khinj",
+    "lat": "35.42898",
+    "lng": "69.73482"
+  },
+  {
+    "country": "AF",
+    "name": "Khāsh",
+    "lat": "31.52919",
+    "lng": "62.79055"
+  },
+  {
+    "country": "AF",
+    "name": "Khān Neshīn",
+    "lat": "30.5488",
+    "lng": "63.7888"
+  },
+  {
+    "country": "AF",
+    "name": "Khānaqāh",
+    "lat": "36.62587",
+    "lng": "69.53695"
+  },
+  {
+    "country": "AF",
+    "name": "Chahār Bāgh",
+    "lat": "37.00108",
+    "lng": "65.22392"
+  },
+  {
+    "country": "AF",
+    "name": "Khandūd",
+    "lat": "36.95127",
+    "lng": "72.318"
+  },
+  {
+    "country": "AF",
+    "name": "Khānaqāh",
+    "lat": "36.86279",
+    "lng": "66.16656"
+  },
+  {
+    "country": "AF",
+    "name": "Khanabad",
+    "lat": "36.6825",
+    "lng": "69.11556"
+  },
+  {
+    "country": "AF",
+    "name": "Khamyāb",
+    "lat": "37.5275",
+    "lng": "65.75833"
+  },
+  {
+    "country": "AF",
+    "name": "Khākirān",
+    "lat": "32.8385",
+    "lng": "67.07377"
+  },
+  {
+    "country": "AF",
+    "name": "Kaz̲h̲ah",
+    "lat": "34.24088",
+    "lng": "70.18274"
+  },
+  {
+    "country": "AF",
+    "name": "Kishk-e Nakhūd",
+    "lat": "31.62519",
+    "lng": "65.05511"
+  },
+  {
+    "country": "AF",
+    "name": "Karukh",
+    "lat": "34.48108",
+    "lng": "62.5863"
+  },
+  {
+    "country": "AF",
+    "name": "Kanḏay",
+    "lat": "34.9536",
+    "lng": "70.77897"
+  },
+  {
+    "country": "AF",
+    "name": "Kandahār",
+    "lat": "31.61332",
+    "lng": "65.71013"
+  },
+  {
+    "country": "AF",
+    "name": "Kalān Deh",
+    "lat": "33.83676",
+    "lng": "68.40233"
+  },
+  {
+    "country": "AF",
+    "name": "Kalakān",
+    "lat": "34.78371",
+    "lng": "69.15001"
+  },
+  {
+    "country": "AF",
+    "name": "Kalafgān",
+    "lat": "36.77226",
+    "lng": "69.94489"
+  },
+  {
+    "country": "AF",
+    "name": "Kajrān",
+    "lat": "33.20357",
+    "lng": "65.47311"
+  },
+  {
+    "country": "AF",
+    "name": "Kai",
+    "lat": "34.12819",
+    "lng": "70.71828"
+  },
+  {
+    "country": "AF",
+    "name": "Kabul",
+    "lat": "34.52813",
+    "lng": "69.17233"
+  },
+  {
+    "country": "AF",
+    "name": "Jurm",
+    "lat": "36.86477",
+    "lng": "70.83421"
+  },
+  {
+    "country": "AF",
+    "name": "Jawand",
+    "lat": "35.06361",
+    "lng": "64.14917"
+  },
+  {
+    "country": "AF",
+    "name": "Jānī Khēl",
+    "lat": "32.76315",
+    "lng": "68.39722"
+  },
+  {
+    "country": "AF",
+    "name": "Jalrēz",
+    "lat": "34.4708",
+    "lng": "68.65438"
+  }
+]

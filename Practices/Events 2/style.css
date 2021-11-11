@@ -1,0 +1,28 @@
+.modal {
+  position: absolute;
+  width: 500px;
+  top: 100px;
+  border: 2px solid black;
+  padding: 10px;
+  left: calc(50vw - 250px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+  z-index: 2;
+  background-color: white;
+  display: none;
+}
+
+#overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

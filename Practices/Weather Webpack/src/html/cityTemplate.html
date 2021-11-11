@@ -1,0 +1,18 @@
+<template id="cityElem">
+    <div class="elem">
+        <div class="header"><label>{{name}}</label><i class="far fa-plus-square"></i></div>
+        <div class="description">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>{{weather.0.description}}</p>
+                    <p>Max : {{main.temp_max}}</p>
+                    <p>Min : {{main.temp_min}}</p>
+                    <p>Pressure : {{main.pressure}}</p>
+                </div>
+                <div class="col-md-6">
+<div class="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

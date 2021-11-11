@@ -1,0 +1,58 @@
+.search {
+  min-width: 410px;
+}
+
+#listMovie {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: (1fr)[3];
+      grid-template: 1fr/repeat(3, 1fr);
+  gap: 10px;
+}
+
+#listMovie img {
+  height: 200px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#listMovie .card-body {
+  height: 100%;
+  margin: 0%;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: space-between;
+}
+
+.btn-toolbar {
+  display: block;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-bottom: 20px;
+}
+
+.btn-toolbar button {
+  height: 40px;
+  width: 40px;
+}
+
+.detailImg {
+  height: 500px;
+}
+/*# sourceMappingURL=style.css.map */

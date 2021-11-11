@@ -1,0 +1,10 @@
+body {
+    background-color: lightgray;
+    width: max-content;
+    height: 200px;
+}
+
+h1 {
+    background-color: blue;
+    font-size: 100px;
+}

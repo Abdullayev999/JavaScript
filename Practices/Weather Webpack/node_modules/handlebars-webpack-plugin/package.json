@@ -1,0 +1,55 @@
+{
+  "name": "handlebars-webpack-plugin",
+  "version": "2.2.1",
+  "description": "Renders your html-template on build time",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "ava"
+  },
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://sagold@github.com/sagold/handlebars-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "handlebars",
+    "server"
+  ],
+  "author": "Sascha Goldhofer <noreply@saschagoldhofer.de> (https://github.com/sagold/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagold/handlebars-webpack-plugin/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/sagold/handlebars-webpack-plugin",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "fs-extra": "^0.26.7",
+    "glob": "^5.0.15",
+    "handlebars": "^4.0.3",
+    "safe-require": "^1.0.4"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "eslint": "4.x",
+    "pre-push": "^0.1.1",
+    "sinon": "^7.4.2"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "verbose": true
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^4.4.1"
+  }
+}

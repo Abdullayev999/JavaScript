@@ -1,0 +1,13 @@
+.invalid {
+  border: 2px solid red;
+  color: red;
+}
+
+.invalid + .text-danger {
+  display: block;
+}
+
+.text-danger {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,130 @@
+body {
+  margin: 0%;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.container p {
+  text-align: center;
+  font-size: 25px;
+  height: 30px;
+  padding: 10px;
+  margin: auto;
+}
+
+.container .header {
+  height: 50%;
+  width: 100%;
+}
+
+.container .header form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .header form .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .header form .top label:nth-child(3) {
+  color: red;
+  text-align: right;
+}
+
+.container .header form .top label:nth-child(2) {
+  color: red;
+  text-align: right;
+}
+
+.container .header form .top label:nth-child(4) {
+  color: red;
+  text-align: right;
+}
+
+.container .header form input,
+.container .header form select {
+  width: 300px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.container .header form button,
+.container .header form select {
+  width: 310px;
+  height: 30px;
+}
+
+.container .content {
+  min-height: 330px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.container .content .items {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template: 1fr / 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.container .content .items .box {
+  background-color: aliceblue;
+  height: 120px;
+  border: 50px solid black;
+}
+
+.container .content .items .box .box-content {
+  background-color: #8ACBCB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 25px;
+}
+
+.container .content .items .box .box-content small {
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */

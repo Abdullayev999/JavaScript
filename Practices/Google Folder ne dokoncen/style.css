@@ -1,0 +1,68 @@
+#contextMenyu {
+  position: absolute;
+  display: none;
+  width: 200px;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+  background-color: white;
+}
+
+#contextMenyu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0%;
+  margin: 0%;
+}
+
+#contextMenyu ul li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+#contextMenyu ul li:hover {
+  background-color: aquamarine;
+}
+
+img {
+  width: 120px;
+  height: 140px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.folder {
+  background-color: antiquewhite;
+  width: 120px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.folder p {
+  text-align: center;
+  font-size: 30px;
+  padding: 0%;
+  margin: 0%;
+}
+
+#items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.list-group {
+  background-color: antiquewhite;
+  height: 400px;
+  width: 400px;
+}
+/*# sourceMappingURL=style.css.map */

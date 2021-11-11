@@ -1,0 +1,11 @@
+.invalid {
+    border: 2px solid red;
+    //sosedniy element
+    &+.text-danger {
+        display: inline;
+    }
+}
+
+.text-danger {
+    display: none;
+}

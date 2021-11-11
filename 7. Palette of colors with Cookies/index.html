@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+
+            <p><b>Create new color</b></p>
+            <form name="myForm">
+                <div class="pair">
+                    <div class="top">
+                        <label><b>Color</b></label>
+                        <label hidden id="erorColor">Color can only contain letters</label>
+                    </div>
+                    <input required name="colorInput" type="text">
+                </div>
+                <div class="pair">
+                    <label><b>Type</b></label><br>
+                    <select id="type">
+                        <option>RGB</option>
+                        <option>RGBA</option>
+                        <option>HEX</option>
+                    </select>
+                </div>
+                <div class="pair">
+                    <div class="top">
+                        <label><b>Code</b></label>
+                        <label id="errorRGB" hidden>RGB code must match the pattern<br>[0-255],[0-255],[0,255]</label>
+                        <label id="errorRGBA" hidden>RGBA code must match the pattern<br>[0-255],[0-255],[0,255],[0-1]</label>
+                        <label id="errorHEX" hidden>HEX code must match the pattern<br>[0-9a-fA-F]{6}</label>
+                    </div>
+                    <input required name="codeInput" type="text">
+                </div>
+                <button>Save</button>
+            </form>
+        </div>
+
+        <div class="content">
+            <p>All colors</p>
+            <div class="items">
+            </div>
+        </div>
+    </div>
+
+    <template id="templ">
+        <div class="box">
+            <div class="box-content">
+                <span>{{color}}</span>
+                <small>{{format}}</small>
+                <b>{{code}}</b>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

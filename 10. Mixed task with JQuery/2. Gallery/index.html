@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://kit.fontawesome.com/113f611071.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div hidden class="zoomImage">
+        <img id="zoomImage" src="" alt="">
+        <i id="unzoom" class="fas fa-compress-arrows-alt"></i>
+    </div>
+    <div class="container">
+        <i id="zoom" class="fas fa-expand-arrows-alt"></i>
+
+        <img id="currentImage" alt="">
+        <div class="bottoms">
+            <div class="radios">
+
+            </div>
+            <div class="buttons">
+                <i id="first" class="fas fa-step-backward"></i>
+                <i id="prev" class="fas fa-backward"></i>
+                <i id="play" class="far fa-play-circle"></i>
+                <i id="pause" class="far fa-pause-circle"></i>
+                <i id="next" class="fas fa-forward"></i>
+                <i id="last" class="fas fa-step-forward"></i>
+            </div>
+        </div>
+    </div>
+
+    <template id="template">
+        <input type="radio" class="imageRadio" name="imageRadio" value="{{val}}">
+    </template>
+
+</body>
+
+</html>

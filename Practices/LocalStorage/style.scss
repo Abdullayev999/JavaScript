@@ -1,0 +1,28 @@
+.light-theme {
+    background-color: azure;
+    * {
+        color: black;
+    }
+}
+
+.dark-theme {
+    background-color: black;
+    * {
+        color: yellow;
+    }
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+i {
+    font-size: normal;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}

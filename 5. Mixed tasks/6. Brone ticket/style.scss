@@ -1,0 +1,52 @@
+.container {
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBF2E9;
+    user-select: none;
+    select {
+        margin-right: 50px;
+    }
+    hr {
+        width: 900px;
+    }
+    label {
+        margin-left: 25px;
+    }
+    input {
+        margin-right: 20px;
+    }
+    button {
+        width: 150px;
+        height: 25px;
+    }
+    .searchForm {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .places {
+        width: 100%;
+        border: 1px solid black;
+        padding: 10px;
+        display: grid;
+        grid-template: 1fr 1fr / repeat(13, 1fr);
+        label {
+            border: 1px solid black;
+        }
+    }
+    .book {
+        margin-top: 20px;
+        float: right;
+    }
+    th {
+        padding: 10px;
+    }
+}

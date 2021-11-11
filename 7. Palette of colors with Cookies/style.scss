@@ -1,0 +1,82 @@
+body {
+    margin: 0%;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: max-content;
+    p {
+        text-align: center;
+        font-size: 25px;
+        height: 30px;
+        padding: 10px;
+        margin: auto;
+    }
+    .header {
+        height: 50%;
+        width: 100%;
+        form {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            .top {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                label:nth-child(3) {
+                    color: red;
+                    text-align: right;
+                }
+                label:nth-child(2) {
+                    color: red;
+                    text-align: right;
+                }
+                label:nth-child(4) {
+                    color: red;
+                    text-align: right;
+                }
+            }
+            input,
+            select {
+                width: 300px;
+                margin-bottom: 10px;
+                height: 20px;
+            }
+            button,
+            select {
+                width: 310px;
+                height: 30px;
+            }
+        }
+    }
+    .content {
+        min-height: 330px;
+        height: max-content;
+        .items {
+            width: 100%;
+            height: max-content;
+            display: grid;
+            grid-template: 1fr / 1fr 1fr 1fr;
+            gap: 25px;
+            .box {
+                background-color: aliceblue;
+                height: 120px;
+                border: 50px solid black;
+                .box-content {
+                    background-color: #8ACBCB;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    font-size: 25px;
+                    small {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

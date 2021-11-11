@@ -1,0 +1,12 @@
+.invalid {
+    border: 2px solid red;
+    color: red;
+    //sosedniy element invalind
+    &+.text-danger {
+        display: block;
+    }
+}
+
+.text-danger {
+    display: none;
+}

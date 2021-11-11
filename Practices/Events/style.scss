@@ -1,0 +1,54 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid black 5px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#div {
+    border: 2px solid black;
+    padding: 20px;
+    #p {
+        border: 2px solid black;
+        padding: 20px;
+        #span {
+            color: red;
+        }
+    }
+}
+
+[data-counter] {}
+
+.modal {
+    position: absolute;
+    top: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 500px;
+    left: calc(50vw - 250px);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px black;
+    display: none;
+    z-index: 2;
+    background-color: white;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+    display: none;
+}

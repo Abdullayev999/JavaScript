@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script defer src="./script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <form id="myForm">
+                <input id="searchName" type="text">
+                <button>Search</button>
+            </form>
+        </div>
+        <div class="detail">
+            <h1 id="city"></h1>
+            <h1></h1>
+            <h1 id="date"></h1>
+            <img id="img">
+
+            <h1 id="temp"></h1>
+
+            <div>
+                <h1 id="wind"></h1>
+                <h1 id="precip"></h1>
+                <h1 id=pressure></h1>
+            </div>
+        </div>
+        <div class="week">
+        </div>
+    </div>
+
+
+    <template id="templateHtml">
+        <div class="info">
+            <h3>{{dayOfWeek}}</h3>
+            <p>{{data}}</p>
+            <img src="http://openweathermap.org/img/wn/{{icon}}.png">
+            <h2>{{temp}} ℃</h2>
+        </div>
+    </template>
+</body>
+
+</html>

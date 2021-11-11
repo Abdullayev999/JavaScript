@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="my-4">Contact list!</h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="list-group" id="contactList">
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form name="contactForm">
+                    <div class="form-group">
+                        <label for="fullname">Full name:</label>
+                        <input required type="text" class="form-control" id="fullname" name="fullname"
+                            placeholder="Enter full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone number:</label>
+                        <input required type="tel" class="form-control" id="phone" name="phone"
+                            placeholder="Enter phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" name="favorite" id="favorite">
+                        <label class="form-check-label" for="favorite">Favorite</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="contactModalBody">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script id="contactTemplate" type="text/x-handlebars-template">
+        <div class="list-group-item list-group-item-action" data-id="{{id}}">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{name}}</h5>
+                {{#if favorite}}
+                    <small class="text-muted">⭐</small>
+                {{/if}}
+            </div>
+            <p class="mb-1">{{phone}}</p>
+        </div>
+    </script>
+
+    <script id="contactDetailsTemplate" type="text/x-handlebars-template">
+        <h1>{{name}}</h1>
+        <hr>
+        <h2>{{phone}}</h2>
+        <h2>{{email}}</h2>
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>

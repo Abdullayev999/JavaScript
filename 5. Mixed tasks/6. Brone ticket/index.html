@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form name="searchForm" class="searchForm">
+            <label>Direction:</label>
+            <select id="route">
+                <option value="Baku-London">Baku-London</option>
+                <option value="Baku-Moscow">Baku-Moscow</option> 
+                <option value="Baku-Odessa">Baku-Odessa</option> 
+            </select>
+            <label> Date:</label>
+            <select id="date">
+                <option  value="24.11.2021">24.11.2021</option>
+                <option value="17.11.2021">17.11.2021</option> 
+                <option value="05.11.2021">05.11.2021</option> 
+            </select>
+            <button id="search">Search</button>
+        </form>
+        <div id="notData" hidden>
+            <h3>There are no flights on this date</h3>
+        </div>
+        <div id="content" hidden>
+            <hr>
+            <br>
+            <form name="buyPlace">
+                <div class="places">
+
+                </div>
+                <label class="cost"></label>
+                <button class="book" hidden>Book</button>
+            </form>
+        </div>
+
+        <div id="ticket" hidden>
+            <p>My ticket :</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Direction</th>
+                        <th>Date</th>
+                        <th>Seat</th>
+                    </tr>
+                </thead>
+
+                <tbody id="contentTable">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

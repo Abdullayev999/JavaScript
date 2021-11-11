@@ -1,0 +1,52 @@
+#contextMenyu {
+    position: absolute;
+    display: none;
+    width: 200px;
+    box-shadow: 2px 2px 2px black;
+    background-color: white;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        li {
+            cursor: pointer;
+            padding: 5px;
+            &:hover {
+                background-color: aquamarine;
+            }
+        }
+    }
+}
+
+img {
+    width: 120px;
+    height: 140px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.folder {
+    background-color: antiquewhite;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    p {
+        text-align: center;
+        font-size: 30px;
+        padding: 0%;
+        margin: 0%;
+    }
+}
+
+#items {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-group {
+    background-color: antiquewhite;
+    height: 400px;
+    width: 400px;
+}

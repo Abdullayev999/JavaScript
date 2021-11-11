@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>PAINT</h1>
+        <hr>
+        <div class="instruments">
+            <div class="figures">
+                <label><input value="square" name="instrument" type="radio">⬜</label>
+                <label><input value="circle"  name="instrument" type="radio">⚪</label>
+                <label><input value="rhombus"  name="instrument" type="radio">🔶</label>
+                <label><input  value="triangle"  name="instrument" type="radio"><label  class="triangle">◣</label></label>
+                <label><input value="pencil" checked  name="instrument" type="radio">🖊</label>
+                <label><input value="fill"  name="instrument" type="radio">🧺</label>
+            </div>
+            <div class="functionals">
+                <div class="sizeF">
+
+                    <h4> <small>(10-1000)</small><br>Size: <label id="sizeF">10</label></h4>
+                    <input id="number" step="1" value="10" type="range" min="10" max="1000">
+                </div>
+
+            </div>
+
+            <button id="btn">Clear</button>
+            <div class="functionals">
+                <div class="size">
+                    <h4>Thickness: <label id="size">1</label></h4>
+                    <div class="buttons">
+                        <button id="minus">➖</button>
+                        <button id="plus">➕</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colors">
+                <div class="white"></div>
+                <div class="black"></div>
+                <div class="beige"></div>
+                <div class="grey"></div>
+                <div class="brown"></div>
+                <div class="purple"></div>
+                <div class="springgreen"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+                <div class="violet"></div>
+                <div class="coral"></div>
+                <div class="chocolate"></div>
+                <div class="orange"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="gold"></div>
+                <div class="aqua"></div>
+                <div class="blue"></div>
+            </div>
+        </div>
+        <hr>
+        <canvas id="myCanvas" width="1220" height="380"></canvas>
+        <br>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

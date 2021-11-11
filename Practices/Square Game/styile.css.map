@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAcA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,KAAK;CAC1B;;AAED,AACI,GADD,CACC,CAAC,CAAC;EACE,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "styile.scss"
+    ],
+    "names": [],
+    "file": "styile.css"
+}

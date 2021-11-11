@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        button {
+            background-color: red;
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>My time!</p>
+    <my-time id="time" hour12="true"></my-time>
+    <br>
+    <p>My time!</p>
+    <my-time id="time" hour12="true"></my-time>
+    <br><br>
+
+    <!-- <my-carusel>
+        <p slot="text">Hello!</p>
+        <p slot="name">Farid</p>
+    </my-carusel> -->
+
+
+    <!-- <div>
+        <div style="color: red;">
+            <slot name="text"></slot>
+        </div>
+        <div style="color: blue;">
+            <slot name="name"></slot>
+        </div>
+    </div> -->
+    <!-- /////////////////////////////////////////////////// -->
+
+    <my-carusel>
+        <p slot="title">Images</p>
+        <img slot="images" src="./cat.jpg">
+        <img slot="images" src="./cat2.jpg">
+        <img slot="images" src="./cat3.jpg">
+    </my-carusel>
+
+
+    <!-- <div>
+        <div style="color: red;">
+            <slot name="text"></slot>
+        </div>
+        <div style="color: blue;">
+            <slot name="images"></slot>
+        </div>
+        <button>◀</button>
+        <button>▶</button>
+    </div> -->
+
+    <template id="myTimeTemplate">
+        <p>Current time : </p>
+        <p id="time">Loading. . .</p>
+    </template>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>

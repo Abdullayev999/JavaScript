@@ -1,0 +1,29 @@
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+div {
+    border: 1px solid black;
+    ///position: absolute;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    padding: 30% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

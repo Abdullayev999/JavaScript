@@ -1,0 +1,18 @@
+.container {
+  background-color: #FBF2E9;
+  padding: 30px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.container table {
+  background-color: #FBF2E9;
+  font-size: 30px;
+}
+
+.container table td,
+.container table th {
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */

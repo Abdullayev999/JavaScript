@@ -1,0 +1,14 @@
+.done {
+  text-decoration: line-through;
+}
+
+i {
+  font-style: normal;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=style.css.map */

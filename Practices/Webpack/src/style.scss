@@ -1,0 +1,10 @@
+$bg:green;
+body {
+    background-color: orange;
+    width: max-content;
+    height: 200px;
+    h1 {
+        background-color: $bg;
+        font-size: 100px;
+    }
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red !important;
+  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+/*# sourceMappingURL=style.css.map */
